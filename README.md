@@ -1,28 +1,35 @@
-# GoLedger Challenge
+# GoLedger Front-end Challenge
 
-In this challenge you will create a web interface to a blockchain application. In this application you must implement a race event, car and driver dashboard.
+[![GitHub Stars](https://img.shields.io/github/stars/Xandyhoss/goledger-challenge-web)](https://github.com/Xandyhoss/goledger-challenge-web/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/Xandyhoss/goledger-challenge-web)](https://github.com/Xandyhoss/goledger-challenge-web/issues)
 
-# Requirements
+This is a project created to the GoLedger Front-end position challenge. It's basically a dashboard to manage Race Events, Drivers, Teams ans Cars.
 
-- Your application should be able to add/remove/edit and show all cars, drivers, teams and events;
-- Use **React** (all UI libraries are allowed);
+![App Preview](https://i.imgur.com/MCuveWn.png)
+![App Preview](https://i.imgur.com/RqKMIZ2.png)
 
-## Instructions
+---
 
-- Fork the repository [https://github.com/goledgerdev/goledger-challenge-web](https://github.com/goledgerdev/goledger-challenge-web)
-    - Fork it, do **NOT** clone it, since you will need to send us your forked repository
-    - If you **cannot** fork it, create a private repository and give access to `samuelvenzi` and `lucas-campelo`.
-- Create an web application using React. You will implement the basic operations provided by the API, which are `Create`, `Update`, `Delete` and `Search`.
-- Improve your application with a beautiful UI.
+## Stack
 
-## Server
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-The data are obtained using a rest server at this address: `http://ec2-100-25-136-128.compute-1.amazonaws.com`
+---
 
-Also, a Swagger with the endpoints specifications for the operations is provided at this address: `http://ec2-100-25-136-128.compute-1.amazonaws.com/api-docs/`.
+## Libs used
 
-Tip: execute each operation in the Swagger for information on payload format and endpoint addresses.
+- Phosphor Icons
+- DateFNS
+- MUI React
 
-## Complete the challenge
+---
 
-To complete the challenge, you must send us the link to your forked repository with the code of your application. Please, provide instructions to execute the code.
+## Setup
+
+Clone this repo to your desktop, access the folder with `cd goledger-challenge-web` and then run `npm install` to install all de depenciencies. After that, create a file named `.env.local` inside the project root folder and paste the following line inside the file: `VITE_API_URL=http://ec2-100-25-136-128.compute-1.amazonaws.com/api`.
+
+Now you can run `npm run dev` to start the project locally on `http://localhost:5173`
+
+---
