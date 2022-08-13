@@ -33,3 +33,6 @@ Clone this repo to your desktop, access the folder with `cd goledger-challenge-w
 Now you can run `npm run dev` to start the project locally on `http://localhost:5173`
 
 ---
+## Figma
+[Here you can view the visual project I created before starting the development](https://www.figma.com/file/ioqA5ssZTmGABbB5weULiq/racestats.gg?node-id=0%3A1)
+
